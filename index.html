@@ -1,3 +1,6 @@
+<div id="preloader">
+    <img src="intro.gif" alt="Carregando..." />
+</div>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,7 +9,12 @@
     <title>Guy Laforgia - Tecnologia da Informação</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<script>
+    window.addEventListener('load', function() {
+        document.getElementById('preloader').style.display = 'none';
+    });
+</script>
+    <body>
     <header>
         <img src="foto.jpg" alt="Guy Laforgia">
         <h1>Guy Laforgia</h1>
