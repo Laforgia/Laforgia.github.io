@@ -11,7 +11,9 @@
 </head>
 <script>
     window.addEventListener('load', function() {
-        document.getElementById('preloader').style.display = 'none';
+        setTimeout(function() {
+            document.getElementById('preloader').style.display = 'none';
+        }, 4000); // 4000 milissegundos = 4 segundos
     });
 </script>
     <body>
