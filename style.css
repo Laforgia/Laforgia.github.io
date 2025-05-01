@@ -41,15 +41,15 @@ nav {
     padding: 1rem;
 }
 nav a {
-    color: #f0f0f0;
+    font-size: 18px;       /* aumenta o tamanho da fonte */
+    padding: 12px 20px;    /* mais espaço interno */
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: background 0.3s, color 0.3s;
-    border-radius: 5px;
+    color: white;
+    transition: color 0.3s, border-bottom 0.3s;
 }
 nav a:hover {
-    background: #f0f0f0;
-    color: #121212;
+    color: #00ff88;                  /* verde neon */
+    border-bottom: 2px solid #00ff88; /* uma linha verde abaixo opcional */
 }
 section {
     padding: 2rem;
