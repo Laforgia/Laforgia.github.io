@@ -12,8 +12,9 @@
 }
 
 #preloader img {
-    width: 200px;
-    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
 }
 body {
     font-family: sans-serif;
