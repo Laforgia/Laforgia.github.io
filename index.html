@@ -1,64 +1,94 @@
-<div id="preloader">
-    <img src="intro.gif" alt="Carregando..." />
-</div>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guy Laforgia - Tecnologia da Informação</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guy Eduardo Laforgia - Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<script>
-    window.addEventListener('load', function() {
-        setTimeout(function() {
-            document.getElementById('preloader').style.display = 'none';
-        }, 4000); // 4000 milissegundos = 4 segundos
-    });
-</script>
-    <body>
-    <header>
-        <img src="foto.jpg" alt="Guy Laforgia">
-        <h1>Guy Laforgia</h1>
-        <p>Tecnologia da Informação</p>
-    </header>
+<body>
 
+  <!-- Intro -->
+  <div id="intro">
+    <img src="intro.gif" alt="Intro GIF" />
+  </div>
+
+  <!-- Menu -->
+  <header>
     <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#contato">Contato</a>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Me chamo Guy Eduardo Laforgia, sou um profissional de TI.
-            Possuo mais de 15 anos de experiência em empresas de médio e grande porte, na área de infraestrutura.
-            Atuando com projetos, implantação, administração de redes e sysadmin.
-        Grande capacidade para gerir equipes de suporte e infraestrutura. </p>
-    </section>
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <h2>Sobre</h2>
+    <p>Sou um profissional de Tecnologia da Informação com ampla experiência em infraestrutura, segurança e gestão de TI.</p>
+  </section>
 
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <ul>
-            <li>Consultoria e melhorias em infraestrutura</li>
-            <li>Implantação de novos ambientes</li>
-            <li>Implantação e gerenciamento de Monitoramento de redes(Zabbix, Grafana)</li>
-            <li>Implementação de sistema de chamados OpenSource</li>
-            <li>Gestão de backups em ambientes cloud/híbrido</li>
-            <li>Atualização de patches de segurança (Windows e Linux)</li>
-            <li>Implantação e administração de ambientes Microsoft 365 e Azure AD</li>
-            <li>Migração e implantação em ambientes Cloud e Híbridos</li>
-        </ul>
-    </section>
+  <!-- Experiências -->
+  <section id="experiencias" class="section">
+    <h2>Experiências</h2>
 
-    <section id="contato">
+    <div class="job">
+      <h3>DV Teleatendimento – Analista de TI Pleno</h3>
+      <p><strong>Outubro de 2024 – Presente (4 meses)</strong><br>São Paulo, Brasil</p>
+    </div>
+
+    <div class="job">
+      <h3>2CX – Analista de Infraestrutura PL</h3>
+      <p><strong>Junho de 2024 – Setembro de 2024 (4 meses)</strong><br>São Paulo, Brasil</p>
+    </div>
+
+    <div class="job">
+      <h3>Setra BPO – Coordenador de TI</h3>
+      <p><strong>Março de 2024 – Maio de 2024 (3 meses)</strong><br>São Caetano do Sul, SP</p>
+      <p>Coordenador responsável pelas áreas de Infraestrutura e Segurança da Informação. Planejamento e implantação da rede interna, forecast da área, negociação com fornecedores e definição de estratégias de TI.</p>
+    </div>
+
+    <div class="job">
+      <h3>ATMA – Supervisor de TI</h3>
+      <p><strong>Janeiro de 2023 – Março de 2024 (1 ano 3 meses)</strong><br>São Caetano do Sul, SP</p>
+    </div>
+
+    <div class="job">
+      <h3>ATMA – Administrador de Redes</h3>
+      <p><strong>Abril de 2022 – Janeiro de 2023 (10 meses)</strong><br>São Caetano do Sul, SP</p>
+      <ul>
+        <li>Administração de servidores Windows/Linux e redes Mikrotik</li>
+        <li>Gestão de virtualização (VMWare, Hyper-V, Citrix)</li>
+        <li>Monitoramento via Zabbix e Grafana</li>
+        <li>Segurança da informação, LGPD e auditoria</li>
+        <li>Gestão de contratos e estratégias de redução de custos</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Odebrecht – Responsável de TI (CSC Itatiba)</h3>
+      <p><strong>Novembro de 2013 – Maio de 2022 (8 anos 6 meses)</strong><br>Itatiba, SP</p>
+      <p>Implantação completa da infraestrutura de TI do escritório de CSC. Gestão de ambiente para cerca de 60 usuários, incluindo mobilização e manutenção contínua.</p>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
     <h2>Contato</h2>
+    <p>Email: guylaforgia@email.com</p>
     <p>
-        <img src="whatsapp.png" class="icon" alt="WhatsApp">
-        <a href="https://wa.me/5513981534048" target="_blank">Fale comigo</a>
+      <a href="https://wa.me/5511999999999" target="_blank">📱 WhatsApp</a> |
+      <a href="https://linkedin.com/in/guyeduardo" target="_blank">💼 LinkedIn</a>
     </p>
-    <p>
-        <img src="linkedin.png" class="icon" alt="LinkedIn">
-        <a href="https://www.linkedin.com/in/guy-eduardo-laforgia-2b8259b0" target="_blank">Perfil no LinkedIn</a>
-    </p>
-</section>
+  </section>
+
+  <script>
+    // Delay da intro
+    setTimeout(() => {
+      document.getElementById("intro").style.display = "none";
+    }, 4000);
+  </script>
+</body>
+</html>
