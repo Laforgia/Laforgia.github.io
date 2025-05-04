@@ -15,45 +15,36 @@
 
   <!-- Menu -->
   <header>
-  <nav>
-    <div class="menu-toggle" id="menu-toggle">
-      ☰
-    </div>
-    <ul id="menu">
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#experiencias">Experiências</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
-</header>
-
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Sobre -->
   <section id="sobre" class="section">
     <h2>Sobre</h2>
     <p>Sou um profissional de Tecnologia da Informação com ampla experiência em infraestrutura, segurança e gestão de TI.</p>
   </section>
-  
-  </section> <!-- fim da seção sobre mim -->
 
-<!-- INÍCIO da seção SERVIÇOS -->
-<section id="servicos" style="padding: 60px 20px; background-color: #111; color: #fff;">
-  <div class="container">
-    <h2 style="font-size: 2rem; margin-bottom: 20px;">Serviços</h2>
-    <ul style="list-style: none; padding-left: 0;">
-      <li style="margin-bottom: 10px;">• Consultoria em infraestrutura</li>
-      <li style="margin-bottom: 10px;">• Implantação de servidores</li>
-      <li style="margin-bottom: 10px;">• Monitoramento de redes</li>
-      <li style="margin-bottom: 10px;">• Implementação de sistema de chamados</li>
-      <li style="margin-bottom: 10px;">• Sistemas de gerenciamento NOC</li>
-      <li style="margin-bottom: 10px;">• Atualização de patches de segurança para Windows e Linux</li>
-      <li style="margin-bottom: 10px;">• Implantação de ambiente Microsoft 365 e Azure</li>
-      <li style="margin-bottom: 10px;">• Migração e implantação de ambientes Cloud e Híbridos</li>
+  <!-- Serviços -->
+  <section id="servicos" class="section">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Consultoria em infraestrutura</li>
+      <li>Implantação de servidores</li>
+      <li>Monitoramento de redes</li>
+      <li>Implementação de sistema de chamados</li>
+      <li>Sistemas de gerenciamento NOC</li>
+      <li>Atualização de patches de segurança para Windows e Linux</li>
+      <li>Implantação de ambiente Microsoft 365 e Azure</li>
+      <li>Migração e implantação de ambientes Cloud e Híbridos</li>
     </ul>
-  </div>
-</section>
-<!-- FIM da seção SERVIÇOS -->
+  </section>
 
   <!-- Experiências -->
   <section id="experiencias" class="section">
@@ -101,28 +92,21 @@
 
   <!-- Contato -->
   <section id="contato" class="section">
-    
-      <img src="whatsapp.png" class="icon" alt="WhatsApp" style="width: 24px; height: 24px;">
-
-      <a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a> 
     <p>
-      <img src="linkedin.png" class="icon" alt="LinkedIn" style="width: 24px; height: 24px;">
-
-      <a href="https://linkedin.com/in/guyeduardo" target="_blank"> LinkedIn</a>
+      <img src="whatsapp.png" class="icon" alt="WhatsApp">
+      <a href="https://wa.me/5513981534048" target="_blank">WhatsApp</a>
+    </p>
+    <p>
+      <img src="linkedin.png" class="icon" alt="LinkedIn">
+      <a href="https://linkedin.com/in/guy-eduardo-laforgia-2b8259b0" target="_blank"> LinkedIn</a>
     </p>
   </section>
 
   <script>
-  // Delay da intro
-  setTimeout(() => {
-    document.getElementById("intro").style.display = "none";
-  }, 4000);
-
-  // Toggle do menu hambúrguer
-  document.getElementById("menu-toggle").addEventListener("click", () => {
-    document.getElementById("menu").classList.toggle("show");
-  });
-</script>
-
+    // Delay da intro
+    setTimeout(() => {
+      document.getElementById("intro").style.display = "none";
+    }, 4000);
+  </script>
 </body>
 </html>
