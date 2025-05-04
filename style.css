@@ -86,14 +86,61 @@ nav ul li a:hover {
   list-style-type: disc;
   padding-left: 20px;
 }
-/* Estilo padrão do menu */
-nav ul li a {
-  font-size: 18px; /* tamanho padrão para desktop */
+/* Oculta o botão em telas grandes */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px;
 }
 
-/* Reduz o tamanho da fonte em telas menores (até 600px de largura) */
-@media (max-width: 600px) {
-  nav ul li a {
-    font-size: 14px; /* tamanho menor para celular */
-  }
+/* Menu padrão */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
+
+/* Estilo dos links */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00ff00; /* verde ao passar o mouse */
+}
+
+/* Estilo para telas pequenas */
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #111;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
