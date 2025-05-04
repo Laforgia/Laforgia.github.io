@@ -86,3 +86,14 @@ nav ul li a:hover {
   list-style-type: disc;
   padding-left: 20px;
 }
+/* Estilo padrão do menu */
+nav ul li a {
+  font-size: 18px; /* tamanho padrão para desktop */
+}
+
+/* Reduz o tamanho da fonte em telas menores (até 600px de largura) */
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 14px; /* tamanho menor para celular */
+  }
+}
