@@ -1,19 +1,32 @@
 
 body {
-  background-color: #000;
-  color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+#intro {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#intro img {
+  max-width: 100%;
+  height: auto;
 }
 
 header nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
-  background-color: #111;
-  padding: 10px;
+  background-color: #222;
   margin: 0;
+  padding: 10px 0;
 }
 
 header nav ul li {
@@ -22,22 +35,27 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: white;
-  font-size: 14px;
+  color: #fff;
+  font-size: 16px;
   transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-  color: #00ff88;
+  color: #00ff00;
 }
 
 .section {
   padding: 40px 20px;
-  font-size: 14px;
 }
 
-#experiencias .job h3 {
-  color: #00ff88;
+.job h3 {
+  color: #00ff00;
   font-weight: bold;
-  margin-top: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
