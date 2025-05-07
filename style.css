@@ -45,4 +45,13 @@ header nav ul li a:hover {
   width: 24px;
   vertical-align: middle;
   margin-right: 8px;
+
+  #experiencias .job h3 {
+  color: #00ff88; /* Verde */
+  font-weight: bold;
+  margin-top: 20px;
+
+  }
+
 }
+
