@@ -1,17 +1,19 @@
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111;
+  background-color: #000;
   color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header nav ul {
-  list-style: none;
   display: flex;
+  list-style: none;
   justify-content: center;
-  background-color: #000;
-  margin: 0;
+  background-color: #111;
   padding: 10px;
+  margin: 0;
 }
 
 header nav ul li {
@@ -19,39 +21,23 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  color: white;
+  font-size: 14px;
   transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-  color: #00ff00;
+  color: #00ff88;
 }
 
 .section {
-  padding: 60px 20px;
-}
-
-.section h2 {
-  font-size: 24px;
-}
-
-.section p, .section li {
+  padding: 40px 20px;
   font-size: 14px;
 }
 
-.icon {
-  width: 24px;
-  vertical-align: middle;
-  margin-right: 8px;
-
-  #experiencias .job h3 {
-  color: #00ff88; /* Verde */
+#experiencias .job h3 {
+  color: #00ff88;
   font-weight: bold;
   margin-top: 20px;
-
-  }
-
 }
-
