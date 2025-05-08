@@ -59,3 +59,16 @@ header nav ul li a:hover {
   vertical-align: middle;
   margin-right: 5px;
 }
+
+/* Estilo para a foto de perfil */
+#foto-perfil {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#foto-perfil img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ff00;
+}
+
