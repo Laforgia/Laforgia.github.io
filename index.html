@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -23,74 +24,36 @@
           <li><a href="#servicos">Serviços</a></li>
           <li><a href="#experiencias">Experiências</a></li>
           <li><a href="#contato">Contato</a></li>
+          <li><a href="#mensagem">Me mande uma mensagem</a></li>
         </ul>
       </nav>
-      <!-- Foto abaixo do menu -->
-<div id="foto-perfil">
-  <img src="foto.jpg" alt="Foto de Guy Eduardo Laforgia" />
-</div>
-</header>
 
-    <!-- Seções de conteúdo -->
+      <!-- Foto abaixo do menu -->
+      <div id="foto-perfil">
+        <img src="foto.jpg" alt="Foto de Guy Eduardo Laforgia" />
+      </div>
+    </header>
+
+    <!-- Seções -->
     <section id="sobre" class="section">
       <h2>Sobre</h2>
       <p>Sou um profissional de Tecnologia da Informação com ampla experiência em infraestrutura, segurança e gestão de TI.</p>
     </section>
 
-    <section id="servicos" class="section">
-      <h2>Serviços</h2>
-      <ul>
-        <li>Consultoria em infraestrutura</li>
-        <li>Implantação de servidores</li>
-        <li>Monitoramento de redes</li>
-        <li>Implementação de sistema de chamados</li>
-        <li>Sistemas de gerenciamento NOC</li>
-        <li>Atualização de patches de segurança para Windows e Linux</li>
-        <li>Implantação de ambiente Microsoft 365 e Azure</li>
-        <li>Migração e implantação de ambientes Cloud e Híbridos</li>
-      </ul>
-    </section>
+    <section id="mensagem" class="section">
+      <h2>Me mande uma mensagem</h2>
+      <form action="https://formsubmit.co/guylaforgiaserverlabs@outlook.com" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
 
-    <section id="experiencias" class="section">
-      <h2>Experiências</h2>
-          <div class="job">
-      <h3>DV Teleatendimento – Analista de TI Pleno</h3>
-      <p><strong>Outubro de 2024 – Presente (4 meses)</strong><br>São Paulo, Brasil</p>
-    </div>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
-    <div class="job">
-      <h3>2CX – Analista de Infraestrutura PL</h3>
-      <p><strong>Junho de 2024 – Setembro de 2024 (4 meses)</strong><br>São Paulo, Brasil</p>
-    </div>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
 
-    <div class="job">
-      <h3>Setra BPO – Coordenador de TI</h3>
-      <p><strong>Março de 2024 – Maio de 2024 (3 meses)</strong><br>São Caetano do Sul, SP</p>
-      <p>Coordenador responsável pelas áreas de Infraestrutura e Segurança da Informação. Planejamento e implantação da rede interna, forecast da área, negociação com fornecedores e definição de estratégias de TI.</p>
-    </div>
-
-    <div class="job">
-      <h3>ATMA – Supervisor de TI</h3>
-      <p><strong>Janeiro de 2023 – Março de 2024 (1 ano 3 meses)</strong><br>São Caetano do Sul, SP</p>
-    </div>
-
-    <div class="job">
-      <h3>ATMA – Administrador de Redes</h3>
-      <p><strong>Abril de 2022 – Janeiro de 2023 (10 meses)</strong><br>São Caetano do Sul, SP</p>
-      <ul>
-        <li>Administração de servidores Windows/Linux e redes Mikrotik</li>
-        <li>Gestão de virtualização (VMWare, Hyper-V, Citrix)</li>
-        <li>Monitoramento via Zabbix e Grafana</li>
-        <li>Segurança da informação, LGPD e auditoria</li>
-        <li>Gestão de contratos e estratégias de redução de custos</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <h3>Odebrecht – Responsável de TI (CSC Itatiba)</h3>
-      <p><strong>Novembro de 2013 – Março de 2022 (8 anos 5 meses)</strong><br>Itatiba, SP</p>
-      <p>Implantação completa da infraestrutura de TI do escritório de CSC. Gestão de ambiente para cerca de 60 usuários, incluindo mobilização e manutenção contínua.</p>
-    </div>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
 
     <section id="contato" class="section">
@@ -109,6 +72,5 @@
       document.getElementById("main-content").style.display = "block";
     }, 4000);
   </script>
-
 </body>
 </html>

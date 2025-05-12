@@ -60,7 +60,6 @@ header nav ul li a:hover {
   margin-right: 5px;
 }
 
-/* Estilo para a foto de perfil */
 #foto-perfil {
   text-align: center;
   margin-top: 20px;
@@ -72,3 +71,28 @@ header nav ul li a:hover {
   box-shadow: 0 0 10px #00ff00;
 }
 
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #222;
+  border: 1px solid #555;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00cc00;
+}
